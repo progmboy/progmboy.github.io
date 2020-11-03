@@ -1,21 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://progmboy.github.io</id>
-    <title>progmboy</title>
-    <updated>2020-11-03T05:03:53.498Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://progmboy.github.io"/>
-    <link rel="self" href="https://progmboy.github.io/atom.xml"/>
-    <logo>https://progmboy.github.io/images/avatar.png</logo>
-    <icon>https://progmboy.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, progmboy</rights>
-    <entry>
-        <title type="html"><![CDATA[WaaSMedicAgent Elevation Of Privilege]]></title>
-        <id>https://progmboy.github.io/post/waasmedicagent-elevation-of-privilege/</id>
-        <link href="https://progmboy.github.io/post/waasmedicagent-elevation-of-privilege/">
-        </link>
-        <updated>2020-11-03T05:00:39.000Z</updated>
-        <content type="html"><![CDATA[<p>[TOC]</p>
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>WaaSMedicAgent Elevation Of Privilege | progmboy</title>
+<link rel="shortcut icon" href="https://progmboy.github.io/favicon.ico?v=1604379752665">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://progmboy.github.io/styles/main.css">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://progmboy.github.io">
+  <img class="avatar" src="https://progmboy.github.io/images/avatar.png?v=1604379752665" alt="">
+  </a>
+  <h1 class="site-title">
+    progmboy
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              WaaSMedicAgent Elevation Of Privilege
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2020-11-03 ·
+              </time>
+              
+            </div>
+            
+            <div class="post-content">
+              <p>[TOC]</p>
 <h2 id="environment">Environment</h2>
 <p>Windows 10 x64 1903 (Of course, the same problem exists in the inside preview)</p>
 <h2 id="root-cause">Root Cause</h2>
@@ -207,6 +276,51 @@ LABEL_4:
 <li>run <code>poc_waasmedic.exe</code> with normal user.</li>
 <li>you will see a cmd which running under System privileges.</li>
 </ol>
-]]></content>
-    </entry>
-</feed>
+
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'a89ffe4b4a11d9839fe5',
+    clientSecret: '4c5f5e9447262d1a729b3eac09ab488b0c81304c ',
+    repo: 'progmboy.github.io',
+    owner: '',
+    admin: [''],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+
+        <div class="site-footer">
+   | 
+  <a class="rss" href="https://progmboy.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>
